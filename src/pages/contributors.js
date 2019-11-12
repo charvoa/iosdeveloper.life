@@ -18,10 +18,10 @@ function Contributor(props) {
           <div className="media-content">
             <p className="title is-4">{props.name}</p>
             <p className="subtitle is-6">
-            <ExternalLink
-              name={`@${props.login}`}
-              link={`${props.html_url}`} />
-              </p>
+              <ExternalLink
+                name={`@${props.login}`}
+                link={`${props.html_url}`} />
+            </p>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ class Contributors extends React.Component {
 
   renderNoContributors() {
     return (
-      <section className="hero is-danger" style={{"border-radius": "10px"}}>
+      <section className="hero is-danger" style={{ "border-radius": "10px" }}>
         <div className="hero-body">
           <div className="container">
             <h1 className="title">No contributors yet :(</h1>
