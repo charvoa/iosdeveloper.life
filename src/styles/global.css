@@ -1,0 +1,15 @@
+#navigationBar {
+    margin-bottom: 15px;
+}
+
+.card {
+    display: inline-block;
+    margin: 1rem;
+    max-width: 20%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+}
