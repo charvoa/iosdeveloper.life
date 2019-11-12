@@ -20,4 +20,4 @@ Junior, Intermediate, Staff Eng., Eng. Manager, Eng. Exec
 Core, Ambition, Ownsership, Team Work, Go Beyond ... (create your own in ListItem.js)
 
 **Details (mandatory)**
-All details can be useful
+Give us examples that are related to the control point

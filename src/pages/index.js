@@ -13,8 +13,8 @@ class App extends React.Component {
       <Container>
         <Meta pageTitle="How to become a better iOS Developer ?" />
         <Header />
-        <Intro />
         <Content></Content>
+        <Intro />
       </Container>
     )
   }

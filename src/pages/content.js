@@ -5,7 +5,7 @@ import List from "../components/list"
 function JuniorContent() {
     const items = [
         // Core
-        {name: "I have broad knowledge of core CS concepts.", level: 1, comment: ""},
+        {name: "I have broad knowledge of core iOS concepts.", level: 1, comment: "I know how to setup a basic project, I know how to interact with a button from the storyboard"},
         {name: "I write correct and clean code with some guidance; I consistently follows best practices", level: 1, comment: ""},
         {name: "I have knowledge of simple components of our architecture.", level: 1, comment: ""},
         // Ambition
@@ -45,9 +45,9 @@ class Content extends React.Component {
             { index: 0, title: "Junior Engineer", content: SubContent("junior") },
             { index: 1, title: "Intermediate Engineer", content: SubContent("intermediate") },
             { index: 2, title: "Senior Engineer", content: SubContent("senior") },
-            { index: 3, title: "Staff Engineer", content: null },
-            { index: 4, title: "Engineering Manager", content: null },
-            { index: 5, title: "Engeineering Exec", content: null },
+            { index: 3, title: "Staff Engineer", content: SubContent("staff") },
+            { index: 4, title: "Engineering Manager", content: SubContent("manager") },
+            { index: 5, title: "Engineering Exec", content: SubContent("exec") },
         ]
     }
 

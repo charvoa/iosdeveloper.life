@@ -42,6 +42,7 @@ class ListItem extends React.Component {
     render() {
         return (
             <tr>
+                <td><input type="checkbox"></input></td>
                 <td>{this.props.name}</td>
                 <td><span className={this.levelColorLabel(this.props.level)}>{this.levelName(this.props.level)}</span></td>
                 <td>{this.props.comment}</td>

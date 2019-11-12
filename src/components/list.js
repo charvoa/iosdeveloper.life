@@ -18,9 +18,10 @@ class List extends React.Component {
             <table className="table is-striped is-hoverable is-fullwidth">
                 <thead>
                     <tr>
+                        <th></th>
                         <th>Name</th>
                         <th>Level</th>
-                        <th>Comment / Details / Tools</th>
+                        <th>Examples</th>
                     </tr>
                 </thead>
                 <tbody>
